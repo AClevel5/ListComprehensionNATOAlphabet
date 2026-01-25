@@ -1,0 +1,21 @@
+#adding 1 to each num
+# list_1 = (1, 2, 3)
+# list_2 = [n + 1 for n in list_1]
+# print(list_2)
+
+#splitting each letter of a work into a list
+# name = "Alex"
+# letters_list = [letter for letter in name]
+# print(letters_list)
+
+#multiplying each number in a range
+# num_range = range(1,5)
+# num_multiplied = [n * 2 for n in num_range]
+# print(num_multiplied)
+
+#using a condition to determine if an item belongs in a new list.
+# names = ("Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie")
+# short_names = [name for name in names if len(name) == 4]
+# cap_names = [name.upper() for name in names if len(name) > 4]
+# print(short_names)
+# print(cap_names)
